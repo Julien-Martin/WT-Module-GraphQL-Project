@@ -6,6 +6,12 @@
   "author": "Julien Martin <julienmartin@codeassist.io>",
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
     "prisma": "^2.24.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.24.1"
   }
 }
