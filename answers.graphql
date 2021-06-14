@@ -1,0 +1,158 @@
+# Utilisateurs
+
+################################
+### Permettre de récupérer les utilisateurs
+################################
+
+
+
+
+
+
+################################
+### Permettre de récupérer un utilisateur par id
+################################
+
+
+
+
+
+
+################################
+### Permettre de créer un utilisateur
+################################
+
+
+
+
+
+
+################################
+### Permettre de modifier un utilisateur
+################################
+
+
+
+
+
+################################
+### Permettre de supprimer un utilisateur
+################################
+
+
+
+
+
+# Tweets
+
+################################
+### Permettre de récupérer les tweets
+################################
+
+
+
+
+
+
+################################
+### Permettre de récupérer un tweet par id
+################################
+
+
+
+
+
+
+################################
+### Permettre de récupérer un tweet par id utilisateur
+################################
+
+
+
+
+
+
+################################
+### Permettre de créer un tweet
+################################
+
+
+
+
+
+################################
+### Permettre de modifier un tweet
+################################
+
+
+
+
+
+################################
+### Permettre de supprimer un tweet
+################################
+
+
+
+
+
+
+# Intéractions
+
+################################
+### Permettre un utilisateur de like un tweet
+################################
+
+
+
+
+
+
+################################
+### Permettre un utilisateur de unlike un tweet
+################################
+
+
+
+
+
+
+################################
+### Permettre un utilisateur de retweet un tweet
+################################
+
+
+
+
+
+
+################################
+### Permettre un utilisateur de unretweet un tweet
+################################
+
+
+
+
+
+
+# Notifications
+
+################################
+### Permettre d'être notifié lorsqu'un like est créer (via utilisateur)
+################################
+
+
+
+
+
+
+################################
+### Permettre d'être notifié lorsqu'un retweet est créer (via utilisateur)
+################################
+
+
+
+
+
+
+
