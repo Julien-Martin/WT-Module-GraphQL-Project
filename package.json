@@ -5,6 +5,11 @@
   "repository": "https://github.com/Julien-Martin/WT-Module-GraphQL-Project-2.git",
   "author": "Julien Martin <julienmartin@codeassist.io>",
   "license": "MIT",
+  "scripts": {
+    "migrate": "npx prisma migrate dev --name init",
+    "seed": "npx prisma db seed --preview-feature",
+    "init": "npm run migrate && npm run seed"
+  },
   "devDependencies": {
     "eslint": "^7.28.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -12,6 +17,7 @@
     "prisma": "^2.24.1"
   },
   "dependencies": {
-    "@prisma/client": "^2.24.1"
+    "@prisma/client": "^2.24.1",
+    "faker": "^5.5.3"
   }
 }
