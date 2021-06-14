@@ -87,3 +87,4 @@ Vous pouvez utiliser prisma afin d'observer/modifier/supprimer des lignes de la 
 
 #### Source utile
 * ORM : https://www.prisma.io/docs/concepts/components/prisma-client/crud
+* Apollo Server: https://www.apollographql.com/docs/apollo-server/schema/schema/
