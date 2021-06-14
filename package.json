@@ -1,0 +1,11 @@
+{
+  "name": "WT-Module-GraphQL-Project-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Julien-Martin/WT-Module-GraphQL-Project-2.git",
+  "author": "Julien Martin <julienmartin@codeassist.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "prisma": "^2.24.1"
+  }
+}
