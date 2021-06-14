@@ -8,7 +8,7 @@
   "scripts": {
     "migrate": "npx prisma migrate dev --name init",
     "seed": "npx prisma db seed --preview-feature",
-    "init": "npm run migrate && npm run seed"
+    "init-project": "npm run migrate && npm run seed"
   },
   "devDependencies": {
     "eslint": "^7.28.0",
