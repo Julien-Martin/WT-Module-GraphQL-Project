@@ -19,6 +19,7 @@ Vous pouvez choisir l'architecture que vous souhaitez, tant que le serveur est l
 * npm >= 7
 
 ### Architecture initiale
+
 ├── node_modules (dépendances)
 ├── prisma
 │   ├── migrations
