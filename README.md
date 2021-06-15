@@ -21,16 +21,27 @@ Vous pouvez choisir l'architecture que vous souhaitez, tant que le serveur est l
 ### Architecture initiale
 
 ├── node_modules (dépendances)
+
 ├── prisma
+
 │   ├── migrations
+
+
 │   ├── data.db (base de donnée, ce fichier est généré automatiquement)
 │   ├── schema.prisma (définition des models)
+
 │   └── seed.js (données aléatoires insérées dans la base de donnée)
+
 ├── .eslintrc.js
+
 ├── .gitignore
+
 ├── answers.graphql (vos réponses)
+
 ├── index.js (Fichier principal)
+
 ├── package.json
+
 └── README.md
 
 ### Initialisation du projet
