@@ -45,6 +45,8 @@ Vous pouvez choisir l'architecture que vous souhaitez, tant que le serveur est l
 └── README.md
 
 ### Initialisation du projet
+Pour lancer le projet 
+`npm run dev` ou `yarn dev`
 
 #### Installation des dépendances
 `npm install` ou `yarn install`
