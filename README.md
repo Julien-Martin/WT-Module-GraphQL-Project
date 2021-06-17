@@ -15,7 +15,7 @@ Vous pouvez choisir l'architecture que vous souhaitez, tant que le serveur est l
 
 
 ### Prérequis
-* NodeJS >= 12
+* NodeJS >= 12 https://nodejs.org/en/download/
 * npm >= 7
 
 ### Architecture initiale
