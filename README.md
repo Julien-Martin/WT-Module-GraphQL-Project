@@ -16,7 +16,10 @@ Vous pouvez choisir l'architecture que vous souhaitez, tant que le serveur est l
 
 ### Prérequis
 * NodeJS >= 12 https://nodejs.org/en/download/
-* npm >= 7
+* npm >= 7 (installé avec NodeJS)
+
+Pour tester les versions vous pouvez faire 
+`node --version` et `npm --version`
 
 ### Architecture initiale
 
