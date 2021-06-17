@@ -52,6 +52,38 @@ Pour tester les versions vous pouvez faire
 Vous pouvez utiliser prisma afin d'observer/modifier/supprimer des lignes de la base de donnée
 `npm run studio` ou `yarn studio` 
 
+### Structure de la base de donnée
+#### User
+* id
+* firstname
+* lastname
+* username
+* email
+* avatar
+* createdAt
+* updatedAt
+
+#### Tweet
+* id
+* userId (id de l'utilisateur qui a créer le tweet)
+* text
+* createdAt
+* updatedAt
+
+#### Like
+* id
+* userId (id de l'utilisateur qui a liké)
+* tweetId (id du tweet liké)
+* createdAt
+* updatedAt
+
+#### Retweet
+* id
+* userId (id de l'utilisateur qui a liké)
+* tweetId (id du tweet retweeté)
+* createdAt
+* updatedAt
+
 ### Instructions
 > Pour chaque queries, mutations, subscriptions (côté client) la requête doit être mise dans le fichier `answers.graphql` sinon elle ne pourra être validé
 #### Initialisation (1 point)
@@ -73,10 +105,11 @@ Vous pouvez utiliser prisma afin d'observer/modifier/supprimer des lignes de la 
 * Permettre de supprimer un tweet
 
 #### Intéractions (6 points)
-> Faites attention à la logique, un utilisateur n'est pas censé pouvoir liker deux fois le même tweet, le cas échéant cela annule le like
 * Permettre un utilisateur de like un tweet
+* Un utilisateur n'est pas censé pouvoir like 2 fois un tweet, le cas échéant supprimer son like
 * Permettre un utilisateur de unlike un tweet
 * Permettre un utilisateur de retweet un tweet
+* Un utilisateur n'est pas censé pouvoir retweet 2 fois un tweet, le cas échéant supprimer son retweet
 * Permettre un utilisateur de unretweet un tweet
 
 #### Bonne pratiques (2 points)
