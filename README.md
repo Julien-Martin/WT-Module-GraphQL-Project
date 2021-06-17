@@ -45,14 +45,14 @@ Vous pouvez choisir l'architecture que vous souhaitez, tant que le serveur est l
 └── README.md
 
 ### Initialisation du projet
-Pour lancer le projet 
-`npm run dev` ou `yarn dev`
-
 #### Installation des dépendances
 `npm install` ou `yarn install`
 
 #### Initialisation de la base de donnée
 `npm run init-project` ou `yarn init-project`
+
+#### Pour lancer le projet 
+`npm run dev` ou `yarn dev`
 
 ### Outils
 Vous pouvez utiliser prisma afin d'observer/modifier/supprimer des lignes de la base de donnée
