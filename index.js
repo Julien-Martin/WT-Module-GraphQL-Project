@@ -1,13 +1,18 @@
+const { ApolloServer } = require('apollo-server');
 const { PrismaClient } = require('@prisma/client');
+const typeDefs = require('./src/typeDefs');
+const resolvers = require('./src/resolvers');
 
 const prisma = new PrismaClient();
 
-const getAllUsers = () => prisma.user.findMany();
+const server = new ApolloServer({
+  typeDefs,
+  resolvers,
+  context: {
+    prisma,
+  },
+});
 
-getAllUsers()
-  .then((users) => {
-    console.log(users);
-  })
-  .catch((err) => {
-    console.error(err);
-  });
+server.listen().then(({ url }) => {
+  console.log(`Server ready on ${url}`);
+});
