@@ -53,7 +53,7 @@ Vous pouvez utiliser prisma afin d'observer/modifier/supprimer des lignes de la 
 `npm run studio` ou `yarn studio` 
 
 ### Structure de la base de donnée
-#### User
+#### Table User (prisma.user)
 * id
 * firstname
 * lastname
@@ -63,21 +63,21 @@ Vous pouvez utiliser prisma afin d'observer/modifier/supprimer des lignes de la 
 * createdAt
 * updatedAt
 
-#### Tweet
+#### Table Tweet (prisma.tweet)
 * id
 * userId (id de l'utilisateur qui a créer le tweet)
 * text
 * createdAt
 * updatedAt
 
-#### Like
+#### Table Like (prisma.like)
 * id
 * userId (id de l'utilisateur qui a liké)
 * tweetId (id du tweet liké)
 * createdAt
 * updatedAt
 
-#### Retweet
+#### Table Retweet (prisma.retweet)
 * id
 * userId (id de l'utilisateur qui a liké)
 * tweetId (id du tweet retweeté)
