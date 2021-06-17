@@ -53,7 +53,7 @@ Vous pouvez utiliser prisma afin d'observer/modifier/supprimer des lignes de la 
 `npm run studio` ou `yarn studio` 
 
 ### Instructions
-> Pour chaque queries, mutations, subscriptions (côté client) la requête doit être mise dans le fichier `answers.graphql` sinon elle ne pourra être valider
+> Pour chaque queries, mutations, subscriptions (côté client) la requête doit être mise dans le fichier `answers.graphql` sinon elle ne pourra être validé
 #### Initialisation (1 point)
 * Lancer un serveur Apollo
 
