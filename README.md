@@ -78,27 +78,24 @@ Vous pouvez utiliser prisma afin d'observer/modifier/supprimer des lignes de la 
 * Permettre de modifier un tweet
 * Permettre de supprimer un tweet
 
-#### Intéractions (4 points)
+#### Intéractions (6 points)
 > Faites attention à la logique, un utilisateur n'est pas censé pouvoir liker deux fois le même tweet, le cas échéant cela annule le like
 * Permettre un utilisateur de like un tweet
 * Permettre un utilisateur de unlike un tweet
 * Permettre un utilisateur de retweet un tweet
 * Permettre un utilisateur de unretweet un tweet
 
-#### Notifications (2 points)
-* Permettre d'être notifié lorsqu'un like est créer (via utilisateur)
-* Permettre d'être notifié lorsqu'un retweet est créer (via utilisateur)
-
 #### Bonne pratiques (2 points)
 * Respecter les champs obligatoires
 * Respecter le nommage des variables
 * Documenter son/ses schémas
 
-#### Points bonus (1 point)
+#### Points bonus (3 points)
 * Utiliser des fragments
 * Gérer les erreurs
 * Configurer une profondeur maximale (sécurité)
-
+* Permettre d'être notifié lorsqu'un like est créer (subscriptions)
+* Permettre d'être notifié lorsqu'un retweet est créer (subscriptions)
 #### Source utile
 * ORM : https://www.prisma.io/docs/concepts/components/prisma-client/crud
 * Apollo Server: https://www.apollographql.com/docs/apollo-server/schema/schema/
