@@ -8,7 +8,7 @@ Pour vous faciliter la tâche, la base de donnée avec les relations a déjà é
 Vous pourrez donc utiliser les fonctions de l'ORM Prisma pour discuter avec la base de donnée.
 
 ### Rendu attendu 
-- Projet complet en archive ZIP envoyé à l'adresse julienmartin@codeassist.io avec comme objet de mail "WT-Module-GraphQL-NOM-PRENOM"
+- Projet complet en archive ZIP (nommé WT-Module-GraphQL-NOM-PRENOM.zip) envoyé à l'adresse julienmartin@codeassist.io avec comme objet de mail "WT-Module-GraphQL-NOM-PRENOM"
 - Dans ce projet, vous retrouverez un fichier answers.graphql dans lequel vous devez mettre les différentes requêtes de test (queries, mutations et subscriptions)
 
 Vous pouvez choisir l'architecture que vous souhaitez, tant que le serveur est lancé avec un seul fichier `index.js`
